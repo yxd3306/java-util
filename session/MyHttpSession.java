@@ -44,9 +44,11 @@ public class MyHttpSession implements HttpSession{
     public Object getAttribute(String name) {
         //获取sessionId
         String sessionId = getSessionIdFromCookie();
-        List<String> list = RedisApi.lrange(sessionId);
-        if(list!=null) {
-            return getValueByKey(name,list);
+        if(sessionId!=null) {
+            List<String> list = RedisApi.lrange(sessionId);
+            if(list!=null&&list.size()>0) {
+                return getValueByKey(name,list);
+            }
         }
         return null;
     }
