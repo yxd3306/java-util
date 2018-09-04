@@ -1,0 +1,1 @@
+# java -jar springcloud-eureka.jar --spring.profiles.active=node1

@@ -1,0 +1,10 @@
+package com.yxd.springcloud;
+
+import org.apache.logging.log4j.Logger;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+
+	private final Logger logger = Logger.getLogger(HelloController.class);
+}
