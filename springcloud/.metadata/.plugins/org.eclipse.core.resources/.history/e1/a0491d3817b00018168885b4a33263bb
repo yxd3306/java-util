@@ -1,2 +1,0 @@
-# java -jar springcloud-eureka.jar --spring.profiles.active=node1
-ribbon.eureka.enabled=false

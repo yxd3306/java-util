@@ -1,8 +1,0 @@
- ${AnsiColor.BRIGHT_RED}_______${AnsiColor.BRIGHT_BLUE} _                    _       _  
-${AnsiColor.BRIGHT_RED}(_______)${AnsiColor.BRIGHT_BLUE} |                  (_)     | | 
-    ${AnsiColor.BRIGHT_RED}_   | |__  _____     ____ _  ____| | 
-   ${AnsiColor.BRIGHT_RED}| |  |  _ \| ___ |   / _  | |/ ___) | 
-   ${AnsiColor.BRIGHT_RED}| |  | | | | ____|  ( (_| | | |   | | 
-   ${AnsiColor.BRIGHT_RED}|_|  |_| |_|_____)   \___ |_|_|    \_)
-                       (_____|           
-         

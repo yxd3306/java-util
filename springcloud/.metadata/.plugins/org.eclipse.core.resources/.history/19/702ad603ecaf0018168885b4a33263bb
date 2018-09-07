@@ -1,5 +1,0 @@
-server.port=8083
-
-spring.application.name=messageService
-
-eureka.client.serviceUrl.defaultZone=http://192.168.0.199:8762/eureka/,http://192.168.0.199:8761/eureka/
