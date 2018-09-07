@@ -1,0 +1,16 @@
+server.port=9090
+
+spring.application.name=webConsumer
+
+eureka.client.serviceUrl.defaultZone=http://node1:8761/eureka/,http://node2:8762/eureka/
+
+# 开启健康检查
+eureka.client.healthcheck.enabled = true
+# 每隔30S发送一次续约（心跳）
+# eureka.instance.lease-renewal-interval-in-seconds=30
+# 服务超时90S没有续约 则下线服务
+# eureka.instance.lease-expiration-duration-in-seconds=90
+
+# 注册中心缓存更新属性eureka.client
+eureka.client.fetch-registry=true
+eureka.client.registry-fetch-interval-seconds=30

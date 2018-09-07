@@ -42,6 +42,10 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 			<version>2.0.1.RELEASE</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 
 
 		<dependency>
@@ -50,9 +54,11 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
+			<groupId>com.yxd.springcloud</groupId>
+			<artifactId>eureka-manager</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
 
 	</dependencies>
 
